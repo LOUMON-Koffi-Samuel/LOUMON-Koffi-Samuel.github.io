@@ -1,0 +1,15 @@
+h1{
+    color: white;
+    font-size: 3.8rem;
+}
+
+a, p{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+h2, h3{
+    color: #008C8C;
+    font-size: 3.5rem;
+}

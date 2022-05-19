@@ -1,0 +1,23 @@
+header{
+    padding: 0 15%;
+}
+
+header{
+    background-image: url("../Images/BG_01.jpg");
+    background-size: cover;
+    height: 95vh;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    margin: 8% 0;
+}
+
+a{
+    margin-left: 1rem;
+}
