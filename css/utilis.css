@@ -4,6 +4,11 @@ h1{
     animation: h1 2700ms;
 }
 
+h2, h3{
+    color: #008C8C;
+    font-size: 3.5rem;
+}
+
 h4{
     color: white;
     font-size: 2rem;
@@ -13,11 +18,6 @@ a, p{
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
-}
-
-h2, h3{
-    color: #008C8C;
-    font-size: 3.5rem;
 }
 
 
