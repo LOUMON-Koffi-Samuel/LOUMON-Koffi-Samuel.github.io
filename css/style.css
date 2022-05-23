@@ -458,6 +458,7 @@ footer
     }
 
     a{
+        display: block;
         font-size: 0.8rem;
     }
 
@@ -475,7 +476,7 @@ footer
         height: 20vh;
     }
 
-    .img-service, h3 {
+    .img-service{
        margin-left: 25%;
        margin-bottom: 5%;
     }
