@@ -35,8 +35,9 @@ h4 {
     margin: 0;
 }
 
-h1, h4, h5, a, p{
+h1, h4, a, p{
     color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 h1{
@@ -54,18 +55,22 @@ h2{
 h3{
     color: #008C8C;
     font-size: 3.5rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 h4{
     font-size: 2rem;
 }
 
-a, p, h5{
-    text-decoration: none;
-    font-size: 1.5rem;
+p{
+   
+    font-size: 1.8rem;
 }
 
 a{
+    
+    text-decoration: none;
+    font-size: 1.5rem;
     margin-left: 1rem;
 }
 
@@ -141,13 +146,13 @@ article{
     border-radius: 16px;
 }
 .bg-1{
-    background-image: url("../Images/BG_01.webp");
+    background-image: url("../Images/BG_01.png");
     background-size: cover;
    
 }
 
 .bg-2{
-    background-image: url("../Images/BG_02.webp");
+    background-image: url("../Images/BG_02.png");
     background-size: cover;
 }
 
@@ -223,6 +228,7 @@ section temoignage
 
 .temoignage p{
     color: black;
+    text-shadow: none;
 }
 
 /*
@@ -310,6 +316,93 @@ footer copyright
 
 /*
 =============================
+SECTION ANIMATION
+=============================
+*/
+
+/*
+============================
+animation hover
+============================
+*/
+
+a:hover{
+    color: #008C8C;
+    text-decoration: underline;
+}
+
+.jc-f-star a {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+/*
+============================
+animation header
+============================
+*/
+
+h3{
+animation: h3 2000ms;
+}
+
+@keyframes h3{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
+}
+
+nav{
+animation: nav 1700ms;
+}
+
+@keyframes nav{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
+}
+
+@keyframes h1{
+    0% {
+        transform: translateX(-9999px);
+    }
+    100% {
+        transform: translateX(0);
+        }
+    }
+
+    /*
+============================
+animation btn
+============================
+*/
+
+    .btn:hover, .btn-2:hover{
+   
+        color: white;
+        background-color: #008C8C;
+        border: 4px solid rgb(255, 253, 253) ;
+        padding: 10px 11px;
+    }
+
+    .form-input:hover{
+        color: black;
+        border-color: #008C8C;
+        background-color: white;
+    }
+
+    .form-input:focus{
+        background-color:rgba(255, 255, 255, 0.9);
+    }
+
+
+
+/*
+=============================
 @media pour pc 
 =============================
 */
@@ -354,7 +447,7 @@ footer copyright
         font-size: 2.5rem;
     }
 
-    h4, p, h5{
+    p, h4{
         font-size: 1.5rem;
     }
 
@@ -453,11 +546,12 @@ footer
         font-size: 2rem;
     }
 
-    h4, p, h5{
+    p, h4{
         font-size: 1.2rem;
     }
 
     a{
+        display: block;
         font-size: 0.8rem;
     }
 
@@ -475,7 +569,7 @@ footer
         height: 20vh;
     }
 
-    .img-service, h3 {
+    .img-service{
        margin-left: 25%;
        margin-bottom: 5%;
     }
