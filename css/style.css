@@ -146,13 +146,13 @@ article{
     border-radius: 16px;
 }
 .bg-1{
-    background-image: url("../Images/BG_01.png");
+    background-image: url("../Images/BG_01.webp");
     background-size: cover;
    
 }
 
 .bg-2{
-    background-image: url("../Images/BG_02.png");
+    background-image: url("../Images/BG_02.webp");
     background-size: cover;
 }
 
